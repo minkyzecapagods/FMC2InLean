@@ -1,0 +1,10 @@
+name = "fmc2_project"
+version = "0.1.0"
+defaultTargets = ["fmc2_project"]
+
+[[lean_lib]]
+name = "Fmc2Project"
+
+[[lean_exe]]
+name = "fmc2_project"
+root = "Main"
